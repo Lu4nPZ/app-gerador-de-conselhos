@@ -1,0 +1,10 @@
+@media(min-widht: 768px){
+    .container .tela{
+        padding-inline: 50px;
+        width: 368px;
+    }
+    .container .tela p{
+        font-size: 21px;
+        padding: 26px;
+    }
+}

@@ -1,0 +1,52 @@
+body{
+    font-family: 'Manrope', sans-serif;
+    background-color: hsl(218, 23%, 16%);
+    color: hsl(193, 38%, 86%);
+    font-weight: 800;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container .tela{
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    width: 500px;
+}
+
+.container .tela .titulo{
+    color: hsl(150, 100%, 66%);
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 30px;
+}
+
+.container .tela .conselho{
+    padding: 23px;
+    font-size: 23px;
+    text-align: center;
+}
+
+.container .tela .botao{
+    background-color: hsl(150, 100%, 66%);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    transform: translatey(50%);
+}
+
+.container .tela .botao:hover{
+    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 15px hsl(150, 100%, 66%);
+}
